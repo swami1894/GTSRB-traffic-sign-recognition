@@ -23,7 +23,7 @@ DataPrep.ipynb --> The program is used to convert the .ppm images to .bmp to mak
 DataAug.ipynb --> Uses albumentations library to create the augmented images and also balance the dataset refer images Augmented and unAugmented to check the difference the
 number of samples in each class.
 
-<h3 style="text-align: center;">Samples per class before augmentation</h3>
+<h3><center>Samples per class before augmentation</center></h3>
 
 <p align="center">
   <img src="/UnAugmented.png" />
