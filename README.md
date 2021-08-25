@@ -1,6 +1,10 @@
 # GTSRB-traffic-sign-recognition
 Deep learning model to recognize traffic sign trained using GTSRB dataset.
 
+The SampleImages folder containes the sample train and test images. in the Training folder the images with the prefix aug are augmented samples, they are not available with the
+original GTSRB dataset.
+
+
 DataPrep.ipynb --> The program is used to convert the .ppm images to .bmp to make it easy for tensorflow to process tha images.
 
 DataAug.ipynb --> Uses albumentations library to create the augmented images and also balance the dataset refer images Augmented and unAugmented to check the difference the
@@ -20,6 +24,8 @@ Model.ipynb --> Contains the model structure and the training process. The acuur
 
 Evaluation.ipynb --> Contains the model evaluation using the GTSRB test dataset, the accuracy of the model was near 97% on the test data. The confusion matrix can also be
 visualized in the image file, Confusion_Matrix.
+### Confusion Matrix
+![Confusion Matrix](/Confusion_Matrix.png)
 
 The SampleImages folder containes the sample train and test images. in the Training folder the images with the prefix aug are augmented samples, they are not available with the
 original GTSRB dataset.
