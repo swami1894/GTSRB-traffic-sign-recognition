@@ -39,7 +39,7 @@ Model.ipynb --> Contains the model structure and the training process. The acuur
 <p align="center">
   <img src="/Accuracy.png" />
 </p>
-### Loss change across 50 epochs
+<h3>Loss change across 50 epochs</h3>
 <p align="center">
   <img src="/loss.png" />
 </p>
