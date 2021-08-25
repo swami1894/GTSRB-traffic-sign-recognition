@@ -13,6 +13,7 @@ original GTSRB dataset.
   <img src="https://benchmark.ini.rub.de/material/5.png" />
   <img src="https://benchmark.ini.rub.de/material/6.png" />
   <img src="https://benchmark.ini.rub.de/material/7.png" />
+  <img src="https://benchmark.ini.rub.de/material/8.png" />
 </p>
   
 DataPrep.ipynb --> The program is used to convert the .ppm images to .bmp to make it easy for tensorflow to process tha images.
