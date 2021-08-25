@@ -6,7 +6,7 @@ DataPrep.ipynb --> The program is used to convert the .ppm images to .bmp to mak
 DataAug.ipynb --> Uses albumentations library to create the augmented images and also balance the dataset refer images Augmented and unAugmented to check the difference the
 number of samples in each class.
 
-![Samples per class before augmentation](https://github.com/swami1894/GTSRB-traffic-sign-recognition/blob/main/UnAugmented.png)
+![Samples per class before augmentation](/UnAugmented.png)
 ![Samples per class after augmentation](https://github.com/swami1894/GTSRB-traffic-sign-recognition/blob/main/Augmented.png)
 
 Model.ipynb --> Contains the model structure and the training process. The acuuracy and loss can be visualized in the respective image file, Accuracy and loss
