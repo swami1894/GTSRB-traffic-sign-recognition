@@ -24,21 +24,31 @@ DataAug.ipynb --> Uses albumentations library to create the augmented images and
 number of samples in each class.
 
 ### Samples per class before augmentation
-![Samples per class before augmentation](/UnAugmented.png)
+<p align="center">
+  <img src="/UnAugmented.png" />
+</p>
 
 ### Samples per class after augmentation
-![Samples per class after augmentation](/Augmented.png)
+<p align="center">
+  <img src="/Augmented.png" />
+</p>
 
 Model.ipynb --> Contains the model structure and the training process. The acuuracy and loss can be visualized in the respective image file, Accuracy and loss
 ### Accuracy change across 50 epochs
-![Accuracy](/Accuracy.png)
+<p align="center">
+  <img src="/Accuracy.png" />
+</p>
 ### Loss change across 50 epochs
-![Loss](/loss.png)
+<p align="center">
+  <img src="/loss.png" />
+</p>
 
 Evaluation.ipynb --> Contains the model evaluation using the GTSRB test dataset, the accuracy of the model was near 97% on the test data. The confusion matrix can also be
 visualized in the image file, Confusion_Matrix.
 ### Confusion Matrix
-![Confusion Matrix](/Confusion_Matrix.png)
+<p align="center">
+  <img src="/Confusion_Matrix.png" />
+</p>
 
 The Saved_ephocs_v3.0 folder contains the weights of the model.
 
