@@ -29,13 +29,13 @@ number of samples in each class.
   <img src="/UnAugmented.png" />
 </p>
 
-### Samples per class after augmentation
+<h3>Samples per class after augmentation</h3>
 <p align="center">
   <img src="/Augmented.png" />
 </p>
 
 Model.ipynb --> Contains the model structure and the training process. The acuuracy and loss can be visualized in the respective image file, Accuracy and loss
-### Accuracy change across 50 epochs
+<h3>Accuracy change across 50 epochs</h3>
 <p align="center">
   <img src="/Accuracy.png" />
 </p>
@@ -46,7 +46,7 @@ Model.ipynb --> Contains the model structure and the training process. The acuur
 
 Evaluation.ipynb --> Contains the model evaluation using the GTSRB test dataset, the accuracy of the model was near 97% on the test data. The confusion matrix can also be
 visualized in the image file, Confusion_Matrix.
-### Confusion Matrix
+<h3>Confusion Matrix</h3>
 <p align="center">
   <img src="/Confusion_Matrix.png" />
 </p>
