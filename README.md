@@ -4,6 +4,7 @@ Deep learning model to recognize traffic sign trained using GTSRB dataset.
 The SampleImages folder containes the sample train and test images. in the Training folder the images with the prefix aug are augmented samples, they are not available with the
 original GTSRB dataset.
 
+![Sample Images](https://benchmark.ini.rub.de/material/2.png)
 
 DataPrep.ipynb --> The program is used to convert the .ppm images to .bmp to make it easy for tensorflow to process tha images.
 
@@ -26,9 +27,6 @@ Evaluation.ipynb --> Contains the model evaluation using the GTSRB test dataset,
 visualized in the image file, Confusion_Matrix.
 ### Confusion Matrix
 ![Confusion Matrix](/Confusion_Matrix.png)
-
-The SampleImages folder containes the sample train and test images. in the Training folder the images with the prefix aug are augmented samples, they are not available with the
-original GTSRB dataset.
 
 The Saved_ephocs_v3.0 folder contains the weights of the model.
 
