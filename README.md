@@ -1,4 +1,4 @@
-# GTSRB-traffic-sign-recognition
+<h1> GTSRB-traffic-sign-recognition </h1>
 Deep learning model to recognize traffic sign trained using GTSRB dataset.
 
 The SampleImages folder containes the sample train and test images. in the Training folder the images with the prefix aug are augmented samples, they are not available with the
@@ -23,8 +23,8 @@ DataPrep.ipynb --> The program is used to convert the .ppm images to .bmp to mak
 DataAug.ipynb --> Uses albumentations library to create the augmented images and also balance the dataset refer images Augmented and unAugmented to check the difference the
 number of samples in each class.
 
-### Samples per class before augmentation
 <p align="center">
+  <h3>Samples per class before augmentation</h3>
   <img src="/UnAugmented.png" />
 </p>
 
