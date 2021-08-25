@@ -4,7 +4,7 @@ Deep learning model to recognize traffic sign trained using GTSRB dataset.
 The SampleImages folder containes the sample train and test images. in the Training folder the images with the prefix aug are augmented samples, they are not available with the
 original GTSRB dataset.
 
-<span style="display:block;text-align:center">![Sample Images1](https://benchmark.ini.rub.de/material/2.png)![Sample Images2](https://benchmark.ini.rub.de/material/0.png)![Sample Images3](https://benchmark.ini.rub.de/material/1.png)![Sample Images 4](https://benchmark.ini.rub.de/material/4.png)![Sample Images 5](https://benchmark.ini.rub.de/material/11.png)</span>
+<p style="display:block;text-align:center">![Sample Images1](https://benchmark.ini.rub.de/material/2.png)![Sample Images2](https://benchmark.ini.rub.de/material/0.png)![Sample Images3](https://benchmark.ini.rub.de/material/1.png)![Sample Images 4](https://benchmark.ini.rub.de/material/4.png)![Sample Images 5](https://benchmark.ini.rub.de/material/11.png)</p>
   
 DataPrep.ipynb --> The program is used to convert the .ppm images to .bmp to make it easy for tensorflow to process tha images.
 
