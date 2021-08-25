@@ -15,6 +15,7 @@ number of samples in each class.
 Model.ipynb --> Contains the model structure and the training process. The acuuracy and loss can be visualized in the respective image file, Accuracy and loss
 ### Accuracy change across 50 epochs
 ![Accuracy](/Accuracy.png)
+### Loss change across 50 epochs
 ![Loss](/loss.png)
 
 Evaluation.ipynb --> Contains the model evaluation using the GTSRB test dataset, the accuracy of the model was near 97% on the test data. The confusion matrix can also be
